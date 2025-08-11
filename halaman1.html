@@ -8,53 +8,10 @@
 </head>
 <body>
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      background: #f4f4f4;
-      color: #333;
-    }
-    header {
-      background: #4CAF50;
-      color: white;
-      padding: 1rem;
-      text-align: center;
-    }
-    h1, h2 {
-      margin: 0.5rem 0;
-    }
-    /* Album foto */
-    .album {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 10px;
-      padding: 1rem;
-    }
-    .album img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-      transition: transform 0.2s;
-    }
-    .album img:hover {
-      transform: scale(1.05);
-      }
-      /* Tentang kita */
-    .about {
-      background: white;
-      padding: 1.5rem;
-      margin: 1rem;
-      border-radius: 8px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-      }
-      footer {
-      text-align: center;
-      padding: 1rem;
-      background: #333;
-      color: white;
-    }
+body {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+}
     </style>
   </head>
   <body>
@@ -66,10 +23,10 @@
     <section>
       <h2 style="text-align:center;">Album Foto</h2>
       <div class="album">
-        <img src="lazz.jpg" alt="Foto 1">
-        <img src="lizz.jpg" alt="Foto 2">
-        <img src="zul.jpg" alt="Foto 3">
-        <img src="ug.jpg" alt="Foto 4">
+        <img src="images/lazz.jpg" alt="foto1">
+        <img src="images/lizz.jpg" alt="foto2">
+        <img src="images/zul.jpg" alt="foto3">
+        <img src="images/ug.jpg" alt="foto4">
       </div>
     </section>
 
